@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+/* color */
+.bg-primary {
+  background: #1a2e05;
+}
+
+.bg-secondery {
+  background: #365314;
+}
+
+.bg-accent {
+  background: #7477ff;
+}
+
+.text-accent {
+  color: #ffffff;
+}
+
+nav li a {
+  @apply px-4 py-5 text-lg;
+}
+
+.mobile-nav {
+  @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
+}
+
+nav li a:hover {
+  color: #000000;
+}
+
+/* hero */
+h1 {
+  font-family: "New Amsterdam", cursive;
+  line-height: 1.5 !important;
+}
+
+.newamsterdam {
+  font-family: "New Amsterdam", cursive;
+}
